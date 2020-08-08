@@ -24,6 +24,12 @@ namespace SampleProject.Controllers
             return View();
         }
 
+        //New method Sample
+        public ActionResult Sample()
+        {
+            return View();
+        }
+
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

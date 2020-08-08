@@ -270,6 +270,7 @@
     <Content Include="Views\Home\getPricebelowThousand.cshtml" />
     <Content Include="Views\Home\getBySup.cshtml" />
     <Content Include="Views\Home\GetOrderDetails.cshtml" />
+    <Content Include="Views\Home\Sample.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
