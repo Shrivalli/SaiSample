@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "getBySup";
+}
+
+<h2>getBySup</h2>
+<table class="table-bordered">
+    <tr>
+        <th> Product Name </th>
+        <th> Brand </th>
+        <th> Price</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Pname</td>
+            <td>@item.Supplier</td>
+            <td>@item.Price</td>
+        </tr>
+    }
+</table>
+
